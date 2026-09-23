@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Contact - Mon Site Web</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulaire de contact pour prendre contact avec l'auteur du site Mercedes-Benz.">
+    <meta name="author" content="Romain Augusto">
+    <link rel="icon" type="image/png" href="./assets/img/mercedes-benz-logo-silver.png">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <a href="./index.html">
+            <img src="./assets/img/mercedes-benz-logo-silver.png" id="logo" width="50" height="50" alt="Logo Mercedes-Benz, retour à l'accueil">
+        </a>
+
+        <div class="hamburger" aria-label="Ouvrir le menu de navigation" role="button" tabindex="0">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+        <nav aria-label="Navigation principale">
+            <ul>
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="./pages/histoire.html">Histoire</a></li>
+                <li><a href="./pages/modeles.html">Modèles</a></li>
+                <li><a href="./pages/technologie.html">Technologie</a></li>
+            </ul>
+        </nav>
+
+        <div class="social-links">
+            <a href="https://github.com/Pt74bsx" target="_blank" rel="noopener noreferrer" title="Profil GitHub de l'auteur">
+                <img src="./assets/img/link-github.png" width="32" height="32" alt="Icône GitHub">
+                <span>GitHub</span>
+            </a>
+            <a href="mailto:pt74bsx@eduvaud.ch" title="Envoyer un e-mail à l'auteur">
+                <img src="./assets/img/link-e-mail.png" width="32" height="32" alt="Icône e-mail">
+                <span>E-mail</span>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="formulaire-contact">
+            <h1>Contactez-nous</h1>
+            <p>Une question ? Écrivez-nous, nous vous répondrons rapidement.</p>
+
+            <form action="#" method="post">
+
+                <label for="name-id">Nom *</label>
+                <p id="name-help">Maximum 32 caractères.</p>
+                <input type="text" id="name-id" name="name" placeholder="Dupont" maxlength="32" aria-describedby="name-help" required>
+
+                <label for="firstname-id">Prénom *</label>
+                <p id="firstname-help">Maximum 32 caractères.</p>
+                <input type="text" id="firstname-id" name="firstname" placeholder="Jean" maxlength="32" aria-describedby="firstname-help" required>
+
+                <label for="birthdate-id">Date de naissance *</label>
+                <p id="birthdate-help">Format : JJ/MM/AAAA</p>
+                <input type="date" id="birthdate-id" name="birthdate" aria-describedby="birthdate-help" required>
+
+                <label for="phone-id">Téléphone *</label>
+                <p id="phone-help">Format attendu : +41 XX XXX XX XX</p>
+                <input type="tel" id="phone-id" name="phone" placeholder="+41 21 214 54 27" aria-describedby="phone-help" required>
+
+                <label for="email-id">Adresse e-mail *</label>
+                <p id="email-help">Exemple : jean.dupont@exemple.com</p>
+                <input type="email" id="email-id" name="email" placeholder="jean.dupont@exemple.com" aria-describedby="email-help" required>
+
+                <fieldset>
+                    <legend>Réponse souhaitée par *</legend>
+                    <div>
+                        <input type="radio" id="answer-email" name="typeanswer" value="E-mail" required>
+                        <label for="answer-email">E-mail</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="answer-phone" name="typeanswer" value="Téléphone">
+                        <label for="answer-phone">Téléphone</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="answer-sms" name="typeanswer" value="SMS">
+                        <label for="answer-sms">SMS</label>
+                    </div>
+                </fieldset>
+
+                <label for="message-id">Message</label>
+                <p id="message-help">Décrivez votre demande.</p>
+                <textarea id="message-id" name="message" rows="6" cols="25" placeholder="Votre message..." aria-describedby="message-help"></textarea>
+
+                <div>
+                    <input type="checkbox" id="conditions-id" name="acceptconditions" required>
+                    <label for="conditions-id">J'accepte les <a href="./mentions-legales.html">conditions générales d'utilisation</a> *</label>
+                </div>
+
+                <input type="submit" value="Envoyer →">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <nav aria-label="Navigation secondaire">
+            <ul>
+                <li><a href="./mentions-legales.html">Mentions légales</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./pages/auteur.html">Auteur</a></li>
+                <li><a href="mailto:pt74bsx@eduvaud.ch">pt74bsx@eduvaud.ch</a></li>
+            </ul>
+        </nav>
+        <p>© 2026 - Tous droits réservés</p>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

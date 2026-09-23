@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Modèles - Mon Site Web</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez une sélection de modèles phares de Mercedes-Benz : berlines classiques et véhicules électriques de la gamme EQ.">
+    <meta name="author" content="Romain Augusto">
+    <link rel="icon" type="image/png" href="../assets/img/mercedes-benz-logo-silver.png">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <img src="../assets/img/mercedes-benz-logo-silver.png" id="logo" width="50" height="50" alt="Logo Mercedes-Benz, retour à l'accueil">
+        </a>
+
+        <div class="hamburger" aria-label="Ouvrir le menu de navigation" role="button" tabindex="0">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+        <nav aria-label="Navigation principale">
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="./histoire.html">Histoire</a></li>
+                <li><a href="./modeles.html" id="active">Modèles</a></li>
+                <li><a href="./technologie.html">Technologie</a></li>
+            </ul>
+        </nav>
+
+        <div class="social-links">
+            <a href="https://github.com/Pt74bsx" target="_blank" rel="noopener noreferrer" title="Profil GitHub de l'auteur">
+                <img src="../assets/img/link-github.png" width="32" height="32" alt="Icône GitHub">
+                <span>GitHub</span>
+            </a>
+            <a href="mailto:pt74bsx@eduvaud.ch" title="Envoyer un e-mail à l'auteur">
+                <img src="../assets/img/link-e-mail.png" width="32" height="32" alt="Icône e-mail">
+                <span>E-mail</span>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <h1>Modèles Mercedes-Benz</h1>
+            <p>Découvrez une sélection de modèles emblématiques de la marque.</p>
+            <div class="hero-buttons">
+                <a class="btn-outline" href="#berline">Berlines</a>
+                <a class="btn-outline" href="#electrique">Électriques</a>
+            </div>
+            <img src="../assets/img/mercedes-benz-modele.png" alt="Vue de profil d'une Mercedes-Benz sur fond sombre">
+        </section>
+
+        <section class="content-section">
+            <div class="section-text">
+                <h2 id="berline">Berlines</h2>
+                <p>Les berlines Mercedes-Benz incarnent depuis des décennies l'excellence automobile allemande, alliant élégance sculpturale, confort souverain et technologies de pointe. Avec leur design classique à trois volumes et leurs lignes fluides, elles séduisent autant par leur esthétique raffinée que par leurs performances. À bord, l'interface MBUX (Mercedes-Benz User Experience) place le conducteur au cœur d'un écosystème numérique intuitif, avec des écrans haute résolution, une reconnaissance vocale avancée et des mises à jour logicielles à distance. Les systèmes d'aide à la conduite de dernière génération — régulateur de vitesse adaptatif, détection des angles morts, assistant de maintien de voie — garantissent un niveau de sécurité parmi les plus élevés du marché. Que ce soit la Classe C, berline compacte premium par excellence, la Classe E qui incarne l'équilibre parfait entre sportivité et luxe, ou la Classe S, véritable vitrine technologique au sommet de la hiérarchie automobile mondiale, chaque modèle propose des motorisations variées — essence, diesel, hybride rechargeable — pour répondre à tous les usages, de la conduite urbaine au grand tourisme.</p>
+            </div>
+
+            <div class="carousel-section modeles-carousel">
+                <div class="card">
+                    <img src="../assets/img/mercedes-benz-classe-c.png" alt="Mercedes-Benz Classe C, berline compacte premium">
+                    <div class="card-content">
+                        <h3>Mercedes-Benz Classe C</h3>
+                        <p>La berline compacte par excellence</p>
+                        <a class="btn-outline" data-car="classe-c">En savoir plus</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../assets/img/mercedes-benz-classe-e.png" alt="Mercedes-Benz Classe E, berline alliant élégance et technologie">
+                    <div class="card-content">
+                        <h3>Mercedes-Benz Classe E</h3>
+                        <p>Élégance et technologie réunies</p>
+                        <a class="btn-outline" data-car="classe-e">En savoir plus</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../assets/img/mercedes-benz-classe-s.png" alt="Mercedes-Benz Classe S, berline de luxe haut de gamme">
+                    <div class="card-content">
+                        <h3>Mercedes-Benz Classe S</h3>
+                        <p>Le summum du luxe automobile</p>
+                        <a class="btn-outline" data-car="classe-s">En savoir plus</a>
+                    </div>
+                </div>
+                <button class="carousel-button prev modeles-prev" aria-label="Modèle précédent">&#10094;</button>
+                <button class="carousel-button next modeles-next" aria-label="Modèle suivant">&#10095;</button>
+            </div>
+        </section>
+
+        <section class="content-section reverse">
+            <div class="section-text">
+                <h2 id="electrique">Électriques</h2>
+                <p>La gamme électrique Mercedes-Benz EQ représente l'avant-garde de la mobilité durable sans aucun compromis sur le luxe ou la performance. Développée sur des plateformes dédiées comme l'EVA2, elle exploite des batteries lithium-ion de grande capacité pour offrir des autonomies remarquables : jusqu'à plus de 800 km en cycle WLTP pour l'EQS, entre 549 et 693 km pour l'EQE, et plus de 750 km annoncés pour le nouveau CLA électrique. La recharge rapide en courant continu jusqu'à 200 kW permet de récupérer 80 % de la batterie en à peine 31 minutes sur les bornes compatibles. À l'intérieur, l'Hyperscreen MBUX — une surface vitrée de 1,41 m recouvrant trois écrans — redéfinit l'expérience numérique en voiture. Ces modèles intègrent également les dernières avancées en matière d'aérodynamisme (coefficient Cx de 0,20 pour l'EQS, parmi les meilleurs au monde), de récupération d'énergie au freinage et d'intelligence artificielle via l'assistant MBUX. Zéro émission de CO₂, design futuriste et sophistication technologique font de la gamme EQ le symbole du tournant électrique de Mercedes-Benz.</p>
+            </div>
+
+            <div class="carousel-section modeles-carousel">
+                <div class="card">
+                    <img src="../assets/img/mercedes-benz-eqs.png" alt="Mercedes-Benz EQS, berline électrique de luxe à longue autonomie">
+                    <div class="card-content">
+                        <h3>Mercedes-Benz EQS</h3>
+                        <p>La limousine électrique ultime</p>
+                        <a class="btn-outline" data-car="eqs">En savoir plus</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../assets/img/mercedes-benz-EQE.png" alt="Mercedes-Benz EQE, berline électrique sportive de taille intermédiaire">
+                    <div class="card-content">
+                        <h3>Mercedes-Benz EQE</h3>
+                        <p>La berline électrique sport</p>
+                        <a class="btn-outline" data-car="eqe">En savoir plus</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../assets/img/mercedes-benz-cla.png" alt="Mercedes-Benz CLA électrique nouvelle génération, coupé compact">
+                    <div class="card-content">
+                        <h3>Mercedes-Benz CLA</h3>
+                        <p>Le coupé électrique nouvelle génération</p>
+                        <a class="btn-outline" data-car="cla">En savoir plus</a>
+                    </div>
+                </div>
+                <button class="carousel-button prev modeles-prev" aria-label="Modèle précédent">&#10094;</button>
+                <button class="carousel-button next modeles-next" aria-label="Modèle suivant">&#10095;</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <nav aria-label="Navigation secondaire">
+            <ul>
+                <li><a href="../mentions-legales.html">Mentions légales</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+                <li><a href="./auteur.html">Auteur</a></li>
+                <li><a href="mailto:pt74bsx@eduvaud.ch">pt74bsx@eduvaud.ch</a></li>
+            </ul>
+        </nav>
+        <p>© 2026 - Tous droits réservés</p>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>

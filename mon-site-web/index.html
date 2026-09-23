@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Accueil - Mon Site Web</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez l'histoire, les modèles et les innovations de Mercedes-Benz : voitures de luxe, sportives et technologies de pointe.">
+    <meta name="author" content="Romain Augusto">
+    <link rel="icon" type="image/png" href="./assets/img/mercedes-benz-logo-silver.png">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <a href="./index.html">
+            <img src="./assets/img/mercedes-benz-logo-silver.png" id="logo" width="50" height="50" alt="Logo Mercedes-Benz, retour à l'accueil">
+        </a>
+
+        <div class="hamburger" aria-label="Ouvrir le menu de navigation" role="button" tabindex="0">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+        <nav aria-label="Navigation principale">
+            <ul>
+                <li><a href="./index.html" id="active">Accueil</a></li>
+                <li><a href="./pages/histoire.html">Histoire</a></li>
+                <li><a href="./pages/modeles.html">Modèles</a></li>
+                <li><a href="./pages/technologie.html">Technologie</a></li>
+            </ul>
+        </nav>
+
+        <div class="social-links">
+            <a href="https://github.com/Pt74bsx" target="_blank" rel="noopener noreferrer" title="Profil GitHub de l'auteur">
+                <img src="./assets/img/link-github.png" width="32" height="32" alt="Icône GitHub">
+                <span>GitHub</span>
+            </a>
+            <a href="mailto:pt74bsx@eduvaud.ch" title="Envoyer un e-mail à l'auteur">
+                <img src="./assets/img/link-e-mail.png" width="32" height="32" alt="Icône e-mail">
+                <span>E-mail</span>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero --home">
+            <h1>Mercedes-Benz</h1>
+            <p>Découvrez tout ce que vous avez toujours voulu savoir sur la marque de voiture Mercedes-Benz.</p>
+            <a href="./pages/histoire.html" class="btn-outline">En savoir plus</a>
+            <img src="./assets/img/mercedes-amg-cls-63.png" alt="Mercedes-AMG CLS 63 en fond de page d'accueil">
+        </section>
+
+        <section class="carousel-section" aria-label="Modèles favoris">
+            <h2>Modèles favoris</h2>
+
+            <div class="card">
+                <img src="./assets/img/2018-mercedes-maybach-g-650-landaulet.png" alt="Mercedes-Maybach G 650 Landaulet 2018, vue de trois quarts avant" width="150">
+                <div class="card-content">
+                    <h3>Mercedes-Maybach G 650 Landaulet</h3>
+                    <p>La plus chère et la plus rare</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./assets/img/mercedes-amg-one.png" alt="Mercedes-AMG ONE, hypercar de route dérivée de la Formule 1" width="150">
+                <div class="card-content">
+                    <h3>Mercedes-AMG ONE</h3>
+                    <p>La plus sportive — F1 de route</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./assets/img/Mercedes-AMG-S63-E-Performance.png" alt="Mercedes-AMG S63 E Performance, berline hybride rechargeable haute performance" width="150">
+                <div class="card-content">
+                    <h3>Mercedes-AMG S63 E Performance</h3>
+                    <p>La berline de luxe la plus puissante</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./assets/img/Mercedes-Maybach-EQS-SUV.png" alt="Mercedes-Maybach EQS SUV 100% électrique, SUV de luxe futuriste" width="150">
+                <div class="card-content">
+                    <h3>Mercedes-Maybach EQS SUV</h3>
+                    <p>Le SUV de luxe 100 % électrique</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./assets/img/MERCEDES-BENZ-G-65-AMG.png" alt="Mercedes-Benz G 65 AMG équipé d'un moteur V12 biturbo" width="150">
+                <div class="card-content">
+                    <h3>Mercedes G65 AMG</h3>
+                    <p>Le V12 emblématique du G-Class</p>
+                </div>
+            </div>
+
+            <button class="carousel-button prev" aria-label="Modèle précédent">&#10094;</button>
+            <button class="carousel-button next" aria-label="Modèle suivant">&#10095;</button>
+        </section>
+    </main>
+
+    <footer>
+        <nav aria-label="Navigation secondaire">
+            <ul>
+                <li><a href="./mentions-legales.html">Mentions légales</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./pages/auteur.html">Auteur</a></li>
+                <li><a href="mailto:pt74bsx@eduvaud.ch">pt74bsx@eduvaud.ch</a></li>
+            </ul>
+        </nav>
+        <p>© 2026 - Tous droits réservés</p>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
